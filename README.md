@@ -2,7 +2,7 @@
 
 > Paste a big task, get it split into 25-minute pomodoros, and run the timer on the same page.
 
-**[Live demo](https://su-pomodoroai.vercel.app)**
+**[Live demo](https://pomodoroai-mlx.vercel.app)**
 
 The hard part of the pomodoro technique is deciding what a single pomodoro should actually contain. PomodoroAI sends your task description to Groq's Llama 3.3 70B, which breaks it into chunks sized for roughly 25 minutes of focused work — each with a title, a concrete deliverable, and a handful of micro-steps. The timer lives in the same view, so a vague task becomes a running session without switching apps.
 
@@ -32,4 +32,4 @@ Set `GROQ_API_KEY` in `.env.local`.
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
